@@ -1,0 +1,10 @@
+[package]
+name = "rust-match-lab-be"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tracing = "0.1"
+tracing-subscriber = "0.3"
+tokio = { version = "1", features = ["full"] }
+axum = "0.8.8"
